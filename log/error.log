@@ -1,0 +1,1 @@
+2018-02-02 15:33:25,658 [Thread-2:3328] [blog.views:12] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'

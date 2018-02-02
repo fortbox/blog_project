@@ -1,0 +1,9 @@
+2018-02-02 15:33:25,911 [Thread-3:10328] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 15:33:25,914 [Thread-4:8408] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 15:33:25,915 [Thread-5:10360] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 15:33:25,917 [Thread-6:9980] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 15:33:25,920 [Thread-7:2004] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 15:33:25,970 [Thread-8:4716] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 15:33:25,971 [Thread-9:10284] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 15:33:25,979 [Thread-10:1700] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 15:33:25,980 [Thread-11:3708] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg

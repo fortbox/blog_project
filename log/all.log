@@ -1,0 +1,3 @@
+2018-02-02 15:33:22,795 [Dummy-1:6256] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2018-02-02 15:33:22,798 [Dummy-1:6256] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2018-02-02 15:33:25,658 [Thread-2:3328] [blog.views:12] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
