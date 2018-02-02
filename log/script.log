@@ -7,3 +7,92 @@
 2018-02-02 15:33:25,971 [Thread-9:10284] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
 2018-02-02 15:33:25,979 [Thread-10:1700] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
 2018-02-02 15:33:25,980 [Thread-11:3708] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-02 16:14:12,358 [Thread-2:2088] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 21, in index
+    return render(request, "index.html", locals())
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\base.py", line 209, in render
+    with context.bind_template(self):
+  File "G:\Python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\context.py", line 241, in bind_template
+    updates.update(processor(self.request))
+  File "E:\myPython\blog_project\blog\views.py", line 12, in global_setting
+    'SITE_NAME': settings.NAME,
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\conf\__init__.py", line 49, in __getattr__
+    return getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'NAME'
+2018-02-02 16:15:07,578 [Thread-2:7880] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 21, in index
+    return render(request, "index.html", locals())
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\base.py", line 209, in render
+    with context.bind_template(self):
+  File "G:\Python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\myPython\blog_project_venv\myblog\lib\site-packages\django\template\context.py", line 241, in bind_template
+    updates.update(processor(self.request))
+  File "E:\myPython\blog_project\blog\views.py", line 12, in global_setting
+    'SITE_NAME': settings.NAME,
+AttributeError: 'module' object has no attribute 'NAME'
+2018-02-02 16:15:40,253 [Thread-3:10536] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 16:15:40,262 [Thread-4:10676] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 16:15:40,265 [Thread-5:4584] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 16:15:40,267 [Thread-6:8916] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 16:15:40,269 [Thread-7:11092] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 16:15:40,308 [Thread-8:8256] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 16:15:40,315 [Thread-9:10556] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 16:15:40,322 [Thread-10:11064] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 16:15:40,342 [Thread-11:10044] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-02 16:16:14,818 [Thread-3:6712] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 16:16:14,823 [Thread-4:10920] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 16:16:14,826 [Thread-5:3304] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 16:16:14,828 [Thread-6:9800] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 16:16:14,831 [Thread-7:7668] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 16:16:14,907 [Thread-8:4880] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 16:16:14,918 [Thread-9:976] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 16:16:14,921 [Thread-10:2780] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 16:16:14,924 [Thread-11:10544] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-02 16:16:17,792 [Thread-13:9740] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 16:16:17,795 [Thread-14:10748] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 16:16:17,799 [Thread-15:5820] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 16:16:17,802 [Thread-16:10252] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 16:16:17,805 [Thread-17:10376] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 16:16:17,842 [Thread-18:7144] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 16:16:17,868 [Thread-19:9112] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 16:16:17,871 [Thread-20:1304] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 16:16:17,874 [Thread-21:1172] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-02 16:16:19,539 [Thread-23:8024] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 16:16:19,540 [Thread-24:9276] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 16:16:19,543 [Thread-25:5476] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 16:16:19,546 [Thread-26:10196] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 16:16:19,548 [Thread-27:10336] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 16:16:19,605 [Thread-28:8652] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 16:16:19,609 [Thread-29:4872] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 16:16:19,611 [Thread-30:2956] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 16:16:19,617 [Thread-31:10956] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-02 16:16:37,927 [Thread-3:9064] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-02 16:16:37,930 [Thread-4:9400] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-02 16:16:37,931 [Thread-5:11072] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-02 16:16:37,934 [Thread-6:10644] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-02 16:16:37,937 [Thread-7:10168] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-02 16:16:37,993 [Thread-8:2844] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-02 16:16:38,016 [Thread-9:11040] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-02 16:16:38,026 [Thread-10:10668] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-02 16:16:38,030 [Thread-11:10812] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
