@@ -6,3 +6,8 @@
 2018-02-02 16:16:17,617 [Thread-12:6348] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
 2018-02-02 16:16:19,447 [Thread-22:10824] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
 2018-02-02 16:16:37,849 [Thread-2:4328] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-12 15:01:32,349 [Thread-3:2828] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-12 15:04:39,148 [Thread-70:7680] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-12 17:00:39,358 [Thread-89:12036] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-12 17:51:22,384 [Thread-2:12364] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-12 17:58:44,183 [Thread-2:5564] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'

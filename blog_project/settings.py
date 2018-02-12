@@ -41,6 +41,7 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -77,15 +78,19 @@ WSGI_APPLICATION = 'blog_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'blogdb',
+        'USER': 'root',
+        'PASSWORD': 'mysql123456',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh_CN'
 
 TIME_ZONE = 'UTC'
 
@@ -101,8 +106,16 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # 以下是自己加的
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static'),
+    ("js", os.path.join(BASE_DIR, 'js')),
+    ("css", os.path.join(BASE_DIR, 'css')),
+    ("img", os.path.join(BASE_DIR, 'img')),
 )
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# 自定义用户model
+AUTH_USER_MODEL = 'blog.User'
 
 # 网站的基本信息配置
 SITE_URL = 'http://localhost:8000/'
@@ -190,3 +203,6 @@ LOGGING = {
         },
     }
 }
+
+if __name__ == '__main__':
+    print(os.path.join(BASE_DIR, 'js'))
