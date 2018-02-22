@@ -8,9 +8,9 @@ class ArticleAdmin(admin.ModelAdmin):
 
     class Media:
         js = (
-            'js/kindeditor/kindeditor-min.js',
-            'js/kindeditor/lang/zh_CN.js',
-            'js/kindeditor/config.js',
+            '/static/js/kindeditor/kindeditor-min.js',
+            '/static/js/kindeditor/lang/zh_CN.js',
+            '/static/js/kindeditor/config.js',
         )
 
 

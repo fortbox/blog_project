@@ -7,7 +7,7 @@ from django.contrib.auth.models import AbstractUser
 # 第一种：采用的继承方式扩展用户信息（本系统采用）
 # 扩展：关联的方式去扩展用户信息
 class User(AbstractUser):
-    avatar = models.ImageField(upload_to='avatar/%Y/%m', default='avatar/default.png', max_length=200, blank=True,
+    avatar = models.ImageField(upload_to='avatar/%Y/%m/%d', default='avatar/default.png', max_length=200, blank=True,
                                null=True, verbose_name='用户头像')
     qq = models.CharField(max_length=20, blank=True, null=True, verbose_name='QQ号码')
     mobile = models.CharField(max_length=11, blank=True, null=True, unique=True, verbose_name='手机号码')
@@ -48,6 +48,20 @@ class Category(models.Model):
         return self.name
 
 
+# 自定义一个文章model的管理器
+# 1，新加一个数据处理的方法
+# 2，改变原有的queryset
+class ArticleManager(models.Manager):
+    def distinct_date(self):
+        distinct_date_list = []
+        date_list = self.values("date_publish")
+        for date in date_list:
+            date = date['date_publish'].strftime('%y/%m 文档存档')
+            if date not in distinct_date_list:
+                distinct_date_list.append(date)
+        return distinct_date_list
+
+
 # 文章模型
 class Article(models.Model):
     title = models.CharField(max_length=50, verbose_name='文章标题')
@@ -57,8 +71,10 @@ class Article(models.Model):
     is_recommend = models.BooleanField(default=False, verbose_name='是否推荐')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     user = models.ForeignKey(User, default='admin', verbose_name='用户')
-    category = models.ForeignKey(Category,  default='日记', verbose_name='分类')
+    category = models.ForeignKey(Category, default='日记', verbose_name='分类')
     tag = models.ManyToManyField(Tag, verbose_name='标签')
+
+    objects = ArticleManager()
 
     class Meta:
         verbose_name = '文章'

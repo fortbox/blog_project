@@ -172,3 +172,801 @@ AttributeError: 'module' object has no attribute 'NAME'
 2018-02-12 17:58:44,993 [Thread-11:11600] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
 2018-02-12 17:58:59,604 [Thread-13:9824] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
 2018-02-12 17:59:53,543 [Thread-3:13136] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-13 09:48:32,404 [Thread-10:11976] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-13 09:55:07,493 [Thread-58:8884] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-13 11:55:48,880 [Thread-54:4568] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 11:58:58,891 [Thread-57:12900] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:02:08,858 [Thread-59:8952] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:03:42,322 [Thread-63:3188] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:06:34,947 [Thread-78:8332] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:09:32,322 [Thread-80:6452] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    contet_type="application/json")
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:10:28,207 [Thread-82:4952] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    return HttpResponse(json.dumps(result),
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:11:38,036 [Thread-84:10860] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python27\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\myPython\blog_project\blog\upload.py", line 40, in upload_image
+    return HttpResponse(json.dumps(result),
+  File "D:\Python27\lib\site-packages\django\http\response.py", line 340, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'contet_type'
+2018-02-13 12:19:22,821 [Thread-3:5852] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 12:25:23,992 [Thread-2:10656] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 12:25:33,302 [Thread-4:13060] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 12:25:39,114 [Thread-10:10960] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 12:25:39,190 [Thread-11:5688] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 12:32:13,006 [Thread-5:6468] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 12:32:13,052 [Thread-6:11140] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 12:32:39,657 [Thread-9:988] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ec7adb61-1076-11e8-b3d4-f0761cf56d90.png
+2018-02-13 12:34:16,078 [Thread-3:1328] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1325ee7fa1-1077-11e8-9c6f-f0761cf56d90.png
+2018-02-13 12:35:54,806 [Thread-3:8648] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1360ce5e0f-1077-11e8-8d2b-f0761cf56d90.png
+2018-02-13 12:36:39,483 [Thread-3:9676] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/137b6af580-1077-11e8-bc16-f0761cf56d90.png
+2018-02-13 12:44:26,108 [Thread-12:11924] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 12:44:26,313 [Thread-13:6684] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 12:44:26,328 [Thread-15:1968] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1325ee7fa1-1077-11e8-9c6f-f0761cf56d90.png
+2018-02-13 12:44:26,332 [Thread-14:8064] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ec7adb61-1076-11e8-b3d4-f0761cf56d90.png
+2018-02-13 12:44:26,335 [Thread-16:10684] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1360ce5e0f-1077-11e8-8d2b-f0761cf56d90.png
+2018-02-13 12:44:26,336 [Thread-17:9996] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/137b6af580-1077-11e8-bc16-f0761cf56d90.png
+2018-02-13 14:28:23,186 [Thread-44:6356] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 14:28:23,507 [Thread-45:8160] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 14:28:23,523 [Thread-46:11356] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ec7adb61-1076-11e8-b3d4-f0761cf56d90.png
+2018-02-13 14:28:23,529 [Thread-48:5712] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/137b6af580-1077-11e8-bc16-f0761cf56d90.png
+2018-02-13 14:28:23,533 [Thread-47:13124] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1360ce5e0f-1077-11e8-8d2b-f0761cf56d90.png
+2018-02-13 14:28:23,536 [Thread-49:8300] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1325ee7fa1-1077-11e8-9c6f-f0761cf56d90.png
+2018-02-13 14:45:25,954 [Thread-6:4064] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 14:45:25,956 [Thread-7:6180] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 14:45:25,957 [Thread-8:8244] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ec7adb61-1076-11e8-b3d4-f0761cf56d90.png
+2018-02-13 14:45:25,959 [Thread-10:9424] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1360ce5e0f-1077-11e8-8d2b-f0761cf56d90.png
+2018-02-13 14:45:25,960 [Thread-9:11440] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1325ee7fa1-1077-11e8-9c6f-f0761cf56d90.png
+2018-02-13 14:45:25,964 [Thread-11:4296] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/137b6af580-1077-11e8-bc16-f0761cf56d90.png
+2018-02-13 14:45:45,381 [Thread-15:11964] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/131191b55e-1075-11e8-9ed9-f0761cf56d90.png
+2018-02-13 14:45:45,394 [Thread-16:11328] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ec7adb61-1076-11e8-b3d4-f0761cf56d90.png
+2018-02-13 14:45:45,394 [Thread-18:8064] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1360ce5e0f-1077-11e8-8d2b-f0761cf56d90.png
+2018-02-13 14:45:45,397 [Thread-17:2656] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/1325ee7fa1-1077-11e8-9c6f-f0761cf56d90.png
+2018-02-13 14:45:45,710 [Thread-20:3520] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/137b6af580-1077-11e8-bc16-f0761cf56d90.png
+2018-02-13 14:45:45,711 [Thread-19:1628] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2018/2/13ee47efb0-1075-11e8-b484-f0761cf56d90.png
+2018-02-13 15:34:03,641 [Thread-4:7884] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2018-02-13 15:34:03,641 [Thread-6:12124] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2018-02-13 15:34:03,641 [Thread-3:11352] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-13 15:34:03,642 [Thread-5:2592] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-13 15:34:03,644 [Thread-7:10780] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2018-02-13 15:34:04,069 [Thread-8:10684] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2018-02-13 15:34:04,085 [Thread-9:6376] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2018-02-13 15:34:04,085 [Thread-10:2960] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2018-02-13 15:34:04,088 [Thread-11:8040] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2018-02-13 15:34:10,365 [Thread-12:7556] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2018-02-13 15:34:35,069 [Thread-18:11052] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2018-02-13 15:37:16,190 [Thread-20:12468] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 22, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: base.html
+2018-02-13 15:57:58,081 [Thread-2:7948] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 23, in index
+    return render(request, "index.html", {})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    template = context.template.engine.get_template(template)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: ad.html
+2018-02-13 16:13:55,904 [Thread-2:10904] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "index.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-13 16:14:42,579 [Thread-5:8056] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "base.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-13 16:14:47,279 [Thread-6:6856] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "base.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-13 16:15:12,589 [Thread-8:6192] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "base.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-13 16:16:18,176 [Thread-10:6492] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "base.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-13 16:16:27,933 [Thread-11:6180] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 24, in index
+    return render(request, "base.html", {'category_list': category_list})
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'category' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 11:13:38,456 [Thread-2:5848] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 36, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 11:13:40,296 [Thread-3:12184] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-14 15:00:27,134 [Thread-2:2128] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:00:28,022 [Thread-3:3268] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-14 15:00:46,736 [Thread-12:6636] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:01:40,039 [Thread-16:888] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:02:46,891 [Thread-2:12240] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:05:29,871 [Thread-2:13172] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:17:21,115 [Thread-4:6984] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:17:23,266 [Thread-5:10340] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for ' archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:28:07,032 [Thread-6:8344] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2018-02-14 15:29:07,566 [Thread-8:3808] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\myPython\blog_project\blog\views.py", line 42, in index
+    return render(request, "index.html", locals())
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "D:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "D:\Python27\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'archive' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []

@@ -112,6 +112,9 @@ STATICFILES_DIRS = (
     ("img", os.path.join(BASE_DIR, 'img')),
 )
 
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads/')
+
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # 自定义用户model
@@ -138,7 +141,7 @@ LOGGING = {
     },
     'handlers': {
         'mail_admins': {
-            'level': 'ERROR',
+            'level': 'DEBUG',
             'class': 'django.utils.log.AdminEmailHandler',
             'include_html': True,
         },
@@ -151,7 +154,7 @@ LOGGING = {
             'formatter': 'standard',  # 使用哪种formatters日志格式
         },
         'error': {
-            'level': 'ERROR',
+            'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
             'filename': 'log/error.log',
             'maxBytes': 1024 * 1024 * 5,
@@ -193,11 +196,16 @@ LOGGING = {
         },
         'scripts': {
             'handlers': ['scprits_handler'],
-            'level': 'INFO',
+            'level': 'DEBUG',
             'propagate': False
         },
         'blog.views': {
             'handlers': ['default', 'error'],
+            'level': 'DEBUG',
+            'propagate': True
+        },
+        'blog.upload': {
+            'handlers': ['default', 'console', 'error'],
             'level': 'DEBUG',
             'propagate': True
         },
