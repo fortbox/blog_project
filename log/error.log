@@ -34,3 +34,32 @@
 2018-02-13 15:56:01,075 [Thread-26:8460] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
 2018-02-13 15:57:58,059 [Thread-2:7948] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
 2018-02-13 15:58:50,088 [Thread-8:10956] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: 'a.txt'
+2018-02-22 11:02:54,115 [Thread-2:2264] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:30:21,680 [Thread-8:11776] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:34:48,315 [Thread-22:7400] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:44:13,420 [Thread-4:11716] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:44:39,914 [Thread-6:8788] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:44:45,608 [Thread-8:7688] [blog.views:60] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 11:46:42,558 [Thread-8:5172] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:42:30,206 [Thread-3:12828] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:46:59,585 [Thread-3:8580] [blog.views:63] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:47:19,369 [Thread-6:12752] [blog.views:63] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:48:32,470 [Thread-2:12240] [blog.views:53] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:50:44,788 [Thread-2:4112] [blog.views:53] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 12:52:04,286 [Thread-3:2708] [blog.views:53] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-22 14:33:14,049 [Thread-2:7624] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:34:13,142 [Thread-5:9332] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:34:34,727 [Thread-7:6968] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:34:47,094 [Thread-9:10520] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:36:59,980 [Thread-16:212] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:37:42,647 [Thread-32:1992] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:39:38,921 [Thread-8:8] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:39:57,358 [Thread-15:6456] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:42:07,779 [Thread-2:6564] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:42:19,888 [Thread-8:4892] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:43:08,542 [Thread-14:7520] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:43:25,582 [Thread-20:5816] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:43:40,368 [Thread-36:9260] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 14:45:49,966 [Thread-2:9128] [blog.views:38] [views:index] [ERROR]- cannot concatenate 'str' and 'datetime.datetime' objects
+2018-02-22 15:35:04,773 [Thread-2:5108] [blog.views:33] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2018-02-22 15:37:19,230 [Thread-2:5620] [blog.views:33] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)

@@ -7,10 +7,14 @@ from django.contrib.auth.models import AbstractUser
 # 第一种：采用的继承方式扩展用户信息（本系统采用）
 # 扩展：关联的方式去扩展用户信息
 class User(AbstractUser):
-    avatar = models.ImageField(upload_to='avatar/%Y/%m/%d', default='avatar/default.png', max_length=200, blank=True,
+    avatar = models.ImageField(upload_to='avatar/%Y/%m/%d',
+                               default='avatar/default.png',
+                               max_length=200, blank=True,
                                null=True, verbose_name='用户头像')
     qq = models.CharField(max_length=20, blank=True, null=True, verbose_name='QQ号码')
-    mobile = models.CharField(max_length=11, blank=True, null=True, unique=True, verbose_name='手机号码')
+    mobile = models.CharField(max_length=11, blank=True, null=True,
+                              unique=True, verbose_name='手机号码')
+    url = models.URLField(max_length=100, blank=True, null=True, verbose_name='个人网页地址')
 
     class Meta:
         verbose_name = '用户'
@@ -56,7 +60,9 @@ class ArticleManager(models.Manager):
         distinct_date_list = []
         date_list = self.values("date_publish")
         for date in date_list:
-            date = date['date_publish'].strftime('%y/%m 文档存档')
+            # print("henry xiao:data_publish :" +date['date_publish'])
+            date = date['date_publish'].strftime('%Y/%m 文档存档')
+            print("henry xiao: " +date)
             if date not in distinct_date_list:
                 distinct_date_list.append(date)
         return distinct_date_list
@@ -88,6 +94,9 @@ class Article(models.Model):
 # 评论模型
 class Comment(models.Model):
     content = models.TextField(verbose_name='评论内容')
+    username = models.CharField(max_length=30, blank=True, null=True, verbose_name='用户名')
+    email = models.EmailField(max_length=50, blank=True, null=True, verbose_name='邮箱地址')
+    url = models.URLField(max_length=100, blank=True, null=True, verbose_name='个人网页地址')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     user = models.ForeignKey(User, blank=True, null=True, verbose_name='用户')
     article = models.ForeignKey(Article, blank=True, null=True, verbose_name='文章')

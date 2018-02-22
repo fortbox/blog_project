@@ -122,8 +122,8 @@ AUTH_USER_MODEL = 'blog.User'
 
 # 网站的基本信息配置
 SITE_URL = 'http://localhost:8000/'
-SITE_NAME = '鸟嘌呤的个人博客'
-SITE_DESC = '专注Python开发，欢迎和大家交流'
+SITE_NAME = "Henry Xiao's BLOG"
+SITE_DESC = 'PYTHON, FRM, DEEP LEARNING.'
 WEIBO_SINA = 'http://weibo.sina.com/yopoing'
 WEIBO_TENCENT = 'http://weibo.qq.com/yopoing'
 PRO_RSS = 'http://ww2w.baidu.com'

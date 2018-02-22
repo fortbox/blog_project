@@ -12,21 +12,11 @@ Class-based views
 Including another URLconf
     1. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf import settings
-from django.conf.urls import include, url
-from django.contrib import admin
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf.urls import url
 
-from blog import upload
+from blog import views
 
 urlpatterns = [
-    url(r'^admin/upload/(?P<dir_name>[^/]+)$',
-        upload.upload_image, name='upload_image'),
-    url(r'^uploads/(?P<path>.*)$',
-        'django.views.static.serve',
-        {'document_root': settings.MEDIA_ROOT, }),
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('blog.urls')),
-
+    url(r'^$', views.index, name="index"),
+    url(r'^article/$', views.article, name='article'),
 ]
-urlpatterns += staticfiles_urlpatterns()
